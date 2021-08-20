@@ -39,7 +39,7 @@ public class CabServiceTest {
 //        Ride ride2 = new Ride(20.0,30);
 //        List<Ride> rides = Arrays.asList(ride1,ride2);
 //        double aggFare = cabService.invoiceGenerator(rides);
-//        Assert.assertEquals(345,aggFare,0.0);
+//        
 //    }
 	@Test
 	public void givenMultipleRidesShouldReturnInvoiceSummary() {
